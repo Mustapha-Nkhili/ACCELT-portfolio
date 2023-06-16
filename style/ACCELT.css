@@ -318,7 +318,7 @@ header nav .search i {
 /* End services */
 /* Start feature */
 .feature {
-  background-image: url("img/design-features.jpg");
+  background-image: url("../img/design-features.jpg");
   background-size: cover;
   position: relative;
   height: 600px;
@@ -482,7 +482,7 @@ header nav .search i {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("img/stats.png");
+  background-image: url("../img/stats.png");
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -697,7 +697,7 @@ header nav .search i {
 /* End about */
 /* Start section */
 section {
-  background-image: url("img/quote.jpg");
+  background-image: url("../img/quote.jpg");
   background-size: cover;
   width: 100%;
   height: 250px;
@@ -825,7 +825,7 @@ section p {
   padding: 100px 0;
 }
 .contact .contact-subscribe {
-  background-image: url("img/subscribe.jpg");
+  background-image: url("../img/subscribe.jpg");
   background-size: cover;
   width: 100%;
   height: 250px;
@@ -961,7 +961,7 @@ section p {
 footer {
   position: relative;
   width: 100%;
-  background-image: url("img/subscribe.jpg");
+  background-image: url("../img/subscribe.jpg");
   background-size: cover;
   height: 400px;
   text-align: center;
