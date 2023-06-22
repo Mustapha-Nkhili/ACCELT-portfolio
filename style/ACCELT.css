@@ -842,17 +842,17 @@ section p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 20px;
-    gap: 9px;
+  }
+  .contact .contact-subscribe p {
+    margin-top: 100px;
   }
   .contact .contact-subscribe form {
-    margin-top: 60px;
-    position: relative;
-    margin-right: 124px;
+    position: absolute;
+    left: 0;
+    top: 40px;
   }
   .contact .contact-subscribe form i {
     margin-left: -107px;
-    margin-top: 0px;
   }
 }
 .contact .contact-subscribe form i {
