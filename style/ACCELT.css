@@ -824,7 +824,7 @@ section p {
 .contact {
   padding: 100px 0;
 }
-/* .contact .contact-subscribe {
+.contact .contact-subscribe {
   background-image: url("../img/subscribe.jpg");
   background-size: cover;
   width: 100%;
@@ -836,18 +836,9 @@ section p {
   align-items: center;
   padding: 0 110px;
   margin-bottom: 100px;
-} */
-.contact .contact-subscribe {
-  background-image: url("../img/subscribe.jpg");
-  background-size: cover;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-bottom: 100px;
 }
-/* @media screen and (max-width: 992px) {
+
+@media screen and (max-width: 992px) {
   .contact .contact-subscribe {
     flex-direction: column;
     justify-content: center;
@@ -864,40 +855,16 @@ section p {
   .contact .contact-subscribe form i {
     margin-left: -107px;
   }
-} */
-@media screen and (max-width: 992px) {
-  .contact .contact-subscribe {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .contact .contact-subscribe form {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .contact .contact-subscribe form i {
-    margin-left: -100px;
-  }
 }
-/* .contact .contact-subscribe form i {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 126px;
-  font-size: 25px;
-} */
 
 .contact .contact-subscribe form i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 41.5%;
+  left: 126px;
   font-size: 25px;
 }
+
 .contact .contact-subscribe form input:focus {
   outline: none;
 }
@@ -919,16 +886,13 @@ section p {
   position: absolute;
   text-transform: uppercase;
 }
-/* .contact .contact-subscribe p {
+.contact .contact-subscribe p {
   line-height: 1.8;
-  width: 100vw;
-} */
+  max-width: 100vw;
+}
 @media screen and (min-width: 768px){
-/*   .contact .contact-subscribe p {
+  .contact .contact-subscribe p {
   width: 530px;
-} */
-.contact .contact-subscribe form input[type="submit"] {
-    padding: 20px 10px;
 }
 }
 .contact .contact-content {
