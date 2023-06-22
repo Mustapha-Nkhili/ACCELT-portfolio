@@ -885,8 +885,13 @@ section p {
   text-transform: uppercase;
 }
 .contact .contact-subscribe p {
-  width: 530px;
   line-height: 1.8;
+  width: 100vw;
+}
+@media screen and (min-width: 768px){
+  .contact .contact-subscribe p {
+  width: 530px;
+}
 }
 .contact .contact-content {
   display: flex;
@@ -898,10 +903,6 @@ section p {
     flex-direction: column;
     text-align: center;
     padding: 0 15px 0 15px;
-  }
-  .contact .contact-subscribe p {
-    width: 375px;
-    text-align: center;
   }
 }
 .contact .contact-content .contact-input {
