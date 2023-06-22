@@ -924,8 +924,11 @@ section p {
   width: 100vw;
 } */
 @media screen and (min-width: 768px){
-  .contact .contact-subscribe p {
+/*   .contact .contact-subscribe p {
   width: 530px;
+} */
+.contact .contact-subscribe form input[type="submit"] {
+    padding: 20px 10px;
 }
 }
 .contact .contact-content {
